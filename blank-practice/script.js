@@ -60,7 +60,7 @@
 // const  test2 = [16,6,10,5,6,1,4]
 
 
-  const claculateAge =  function(ages){
+  /*const claculateAge =  function(ages){
     
      const humanAge = ages.map(age=> age<=2 ? 2 * age :   16 +  age *  4);
 
@@ -83,3 +83,43 @@
 
   claculateAge( [5,2,4,1,15,8,3])
   claculateAge([16,6,10,5,6,1,4])
+  */
+
+//  secound method ******************************
+
+
+const claculateAge = (ages)=>
+    
+  ages.map(age=> age<=2 ? 2 * age :   16 +  age *  4).filter(hAge =>  hAge>18 ).reduce((acc,exdog,i,arr)=>
+  acc + exdog/arr.length,0)  
+
+  
+
+
+
+  
+
+const avg1 =claculateAge( [5,2,4,1,15,8,3]);
+const avg2 = claculateAge([16,6,10,5,6,1,4]);
+
+console.log(avg1,avg2);
+
+
+
+
+  const movement = [200,450,-400,3000,-650,-130,70,1300];
+  const eurTousd = 1.1;
+  const Deposite = function(movement){
+const totalDeposite = 
+  movement.filter(mov=> mov>0).map(mov=> mov* eurTousd).reduce((acc,mov)=> acc + mov , 0)
+  console.log(totalDeposite);
+
+  // interest***********
+  const interest = 
+  movement.filter(mov=> mov>0).map(depo=>( depo* 1.2)/100).filter(int=>int>=1.0).reduce((acc,mov)=> acc + mov , 0)
+  console.log(interest);
+}
+
+
+
+Deposite(movement)
