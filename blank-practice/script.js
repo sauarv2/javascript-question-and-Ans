@@ -87,7 +87,7 @@
 
 //  secound method ******************************
 
-
+/*
 const claculateAge = (ages)=>
     
   ages.map(age=> age<=2 ? 2 * age :   16 +  age *  4).filter(hAge =>  hAge>18 ).reduce((acc,exdog,i,arr)=>
@@ -106,7 +106,11 @@ console.log(avg1,avg2);
 
 
 
+*/
 
+
+
+/*
   const movement = [200,450,-400,3000,-650,-130,70,1300];
   const eurTousd = 1.1;
   const Deposite = function(movement){
@@ -123,3 +127,42 @@ const totalDeposite =
 
 
 Deposite(movement)
+
+*/
+
+/*
+
+for(let i = 0 ;  i<10; i++){
+  if(i===8){
+    break;
+  } else if(i==5){
+    continue;
+  }
+  console.log(i)
+}
+
+// 1,2,3,4,6,7
+
+*/
+
+// property exis in javascript **********************************
+/*
+  const user = {
+     name: "saurav",
+     age:28,
+     email:'sauravsaha024@gmail.com'
+  }
+
+  console.log('email' in user);
+  */
+
+
+  const  name = ["saurav","dipa","bristi","naki","paromi"];
+
+    let ch =  name.splice(4,1);
+
+    console.log(ch);
+
+
+    console.log(name)
+    console.log(name.length)
