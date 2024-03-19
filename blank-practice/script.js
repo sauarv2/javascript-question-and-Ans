@@ -18,16 +18,14 @@
 
 // console.log(movementdis);
 
-
 /********************************************************************************************************************** */
 
 // const namee =  ["Saurav saha", "Ananda prasad saha"];
 // const op = namee.toString();
 
-
 // const userId =  function(nam){
 // nam.forEach(nam => {
-//     const ip = 
+//     const ip =
 //     nam.toLowerCase().split(" ").map(n=>
 //         n[0]).join("");
 //         console.log(ip);
@@ -38,13 +36,9 @@
 // }
 // userId(namee)
 
-
-
 /************************************************************************************** */
 
-
 // const movement = [200,450,-400,3000,-650,-130,70,1300];
-
 
 // // const  deposited = movement.filter(mov=>
 // //     mov>0);
@@ -55,12 +49,10 @@
 
 // console.log(total)
 
-
 // const  test1 = [5,2,4,1,15,8,3]
 // const  test2 = [16,6,10,5,6,1,4]
 
-
-  /*const claculateAge =  function(ages){
+/*const claculateAge =  function(ages){
     
      const humanAge = ages.map(age=> age<=2 ? 2 * age :   16 +  age *  4);
 
@@ -108,8 +100,6 @@ console.log(avg1,avg2);
 
 */
 
-
-
 /*
   const movement = [200,450,-400,3000,-650,-130,70,1300];
   const eurTousd = 1.1;
@@ -156,13 +146,15 @@ for(let i = 0 ;  i<10; i++){
   console.log('email' in user);
   */
 
+//     ************ ANY THING DELET FROM ARREY ****************************
+/*
+const  name = ["saurav","dipa","bristi","naki","paromi"];
 
-  const  name = ["saurav","dipa","bristi","naki","paromi"];
+  let ch =  name.splice(4,1);
 
-    let ch =  name.splice(4,1);
+  console.log(ch);
 
-    console.log(ch);
+  console.log(name)
+  console.log(name.length)
 
-
-    console.log(name)
-    console.log(name.length)
+*/
