@@ -158,3 +158,46 @@ const  name = ["saurav","dipa","bristi","naki","paromi"];
   console.log(name.length)
 
 */
+// ******************** some method **********
+/*
+const name = ["saurav", "dipa", "bristi", "naki", "paromi"];
+
+const check = name.some((some) => some === "saurav");
+
+console.log(check);
+*/
+
+// ****************** flat method **********
+/*
+const n1 = [45, 86, -55, 66, 2, -99];
+const n2 = [83, 86, 5, 96, 2, -99];
+const n3 = [45, 86, -55, 6, 2, -99];
+const n4 = [45, 86, -55, 66, 201, -99];
+
+const all = [n1, n2, n3, n4];
+
+const AllInOne = all
+  .map((all) => all)
+  .flat()
+  .reduce((acc, all) => acc + all, 0);
+
+console.log(AllInOne);
+*/
+function potatoes(op) {
+  const p = [];
+
+  const i = op.split("potato").length - 1;
+
+  return i;
+}
+
+console.log(potatoes("potato")); //➞ 1
+console.log(potatoes("potatopotato")); //➞ 2
+console.log(potatoes("potatoapple")); //1
+//➞ 1
+
+// const str = "apple, cherries, green, apples, green, kiwi";
+
+// const ip = str.split(",").filter((str) => str.includes("green")).length;
+
+// console.log(ip);
