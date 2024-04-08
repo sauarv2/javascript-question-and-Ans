@@ -183,6 +183,8 @@ const AllInOne = all
 
 console.log(AllInOne);
 */
+
+/*
 function potatoes(op) {
   const p = [];
 
@@ -196,8 +198,31 @@ console.log(potatoes("potatopotato")); //➞ 2
 console.log(potatoes("potatoapple")); //1
 //➞ 1
 
+// ************************************************
+
+
 // const str = "apple, cherries, green, apples, green, kiwi";
 
 // const ip = str.split(",").filter((str) => str.includes("green")).length;
 
 // console.log(ip);
+
+/*************************************------------------------------------------------- */
+
+function numberSquares(n) {
+  let op = 0;
+  for (let i = 1; i <= n; i++) {
+    op += i * i;
+  }
+  return op;
+}
+
+console.log(numberSquares(4));
+
+//➞ 5
+console.log(numberSquares(4));
+//➞ 30
+
+console.log(numberSquares(numberSquares(5)));
+
+//➞ 55
