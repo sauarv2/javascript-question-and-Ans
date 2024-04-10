@@ -208,7 +208,7 @@ console.log(potatoes("potatoapple")); //1
 // console.log(ip);
 
 /*************************************------------------------------------------------- */
-
+/*
 function numberSquares(n) {
   let op = 0;
   for (let i = 1; i <= n; i++) {
@@ -226,3 +226,36 @@ console.log(numberSquares(4));
 console.log(numberSquares(numberSquares(5)));
 
 //➞ 55
+*/
+
+// **********************************************************************/
+/*
+function seriesResistance(n) {
+  const op = n.reduce((total, num) => {
+    return total + num;
+  }, 0);
+
+  return op + " ohms";
+}
+console.log(seriesResistance([1, 5, 6, 3]));
+console.log(seriesResistance([16, 3.5, 6]));
+console.log(seriesResistance([0.5, 0.5]));
+
+//➞ "15 ohms"
+
+seriesResistance([16, 3.5, 6]); //➞ "25.5 ohms"
+
+seriesResistance([0.5, 0.5]); //➞ "1.0 ohm"
+
+*/
+
+function detectWord(word) {
+  let mt = word.match(/[a-z]/g);
+
+  return mt.join("");
+}
+
+console.log(detectWord("UcUNFYGaFYFYGtNUH")); //➞ "cat"
+console.log(detectWord("bEEFGBuFBRrHgUHlNFYaYr"));
+//➞ "burglar"
+console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment")); //➞ "embezzlement"
