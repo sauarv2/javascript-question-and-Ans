@@ -14,6 +14,7 @@ p2.compareAge(p1) ➞ "Samuel is younger than me."
 p1.compareAge(p3) ➞ "Lily is the same age as me."
 */
 
+/* -----------------------------------------------------
   class Person{
     constructor(name,age){
         this.name = name;
@@ -38,3 +39,32 @@ const p3 = new Person("Lily", 24);
 console.log(p1.compareAge(p2)); // Output: "Joel is older than me."
 console.log(p2.compareAge(p1)); // Output: "Samuel is younger than me."
 console.log(p1.compareAge(p3)); // Output: "Lily is the same age as me."
+
+*/
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  compareAge(other) {
+    if (this.age > other.age) {
+      return `${other.name} younger then me`;
+    }
+    if (this.age < other.age) {
+      return `${other.name} older then me`;
+    }
+    if (this.age == other.age) {
+      return `${other.name} same  as me`;
+    }
+  }
+}
+
+const p1 = new Person("Samuel", 24);
+const p2 = new Person("Joel", 36);
+const p3 = new Person("Lily", 24);
+
+console.log(p1.compareAge(p2));
+console.log(p2.compareAge(p1));
+console.log(p1.compareAge(p3));

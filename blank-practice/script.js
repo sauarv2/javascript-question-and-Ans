@@ -249,6 +249,7 @@ seriesResistance([0.5, 0.5]); //➞ "1.0 ohm"
 
 */
 
+/*
 function detectWord(word) {
   let mt = word.match(/[a-z]/g);
 
@@ -259,3 +260,220 @@ console.log(detectWord("UcUNFYGaFYFYGtNUH")); //➞ "cat"
 console.log(detectWord("bEEFGBuFBRrHgUHlNFYaYr"));
 //➞ "burglar"
 console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment")); //➞ "embezzlement"
+
+
+*/
+
+/*
+function tuckIn(a, b) {
+  let op = a.concat(b);
+  // console.log(op);
+  let o = op.sort((a, b) => a - b);
+
+  console.log(o);
+}
+
+tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]); // ➞ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+tuckIn([15, 150], [45, 75, 35]); //➞ [15, 45, 75, 35, 150]
+
+tuckIn(
+  [
+    [1, 2],
+    [5, 6],
+  ],
+  [[3, 4]]
+); //➞ [[1, 2], [3, 4], [5, 6]]
+*/
+
+/*
+function potatoes(p) {
+  let find = p.split("potato");
+
+  console.log(find);
+  let len = find.length;
+  console.log(len - 1);
+}
+
+potatoes("potato"); //➞ 1
+
+potatoes("potatopotato"); // ➞ 2
+
+potatoes("potatoapple"); //➞ 1
+*/
+/*
+function areEqual(arr1, arr2) {
+  let N = arr1.length;
+  let M = arr2.length;
+
+  // If lengths of array are not equal means
+  // array are not equal
+  if (N != M) return false;
+
+  // Sort both arrays
+
+  arr1.sort();
+  arr2.sort();
+
+  // Linearly compare elements
+  for (let i = 0; i < N; i++) if (arr1[i] != arr2[i]) return false;
+
+  // If all elements were same.
+  return true;
+}
+let arr1 = [3, 5, 2, 5, 2];
+let arr2 = [2, 3, 5, 5, 2];
+
+if (areEqual(arr1, arr2)) document.write("Yes");
+else document.write("No");
+
+
+*/
+/*
+function isFirstSuperior(arr1, arr2) {
+  function check(a, b) {
+    let len = a.length;
+
+    a.sort();
+    b.sort();
+
+    for (let i = 0; i < len; i++) {
+      if (a[i] !== b[i]) {
+        return true;
+      } else false;
+    }
+  }
+
+  console.log(check(arr1, arr2));
+
+  check(arr1, arr2);
+  // if (arr1.length === arr2.length && check(arr1, arr2) && arr1 == arr2) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+}
+
+// console.log(isFirstSuperior());
+console.log(isFirstSuperior([1, 2, 4], [1, 2, 3]));
+// ➞ true
+*/
+
+// **************************************************************
+/*
+function isFirstSuperior(arr1, arr2) {
+  if (arr1 > arr2) {
+    return true;
+  } else if (arr2 < arr1) {
+    return false;
+  } else {
+    return false;
+  }
+}
+
+console.log(isFirstSuperior([1, 2, 4], [1, 2, 3]));
+//➞ true
+console.log(isFirstSuperior(["a", "d", "c"], ["a", "b", "c"]));
+// ➞ true
+console.log(
+  isFirstSuperior(["zebra", "ostrich", "whale"], ["ant", "ostrich", "whale"])
+);
+//➞ true
+
+console.log(isFirstSuperior([1, 2, 3, 4], [1, 2, 4, 4]));
+//➞ false
+
+console.log(isFirstSuperior([true, 10, "zebra"], [true, 10, "zebra"]));
+//➞ false
+
+*/
+
+/*
+function charCount(a, b) {
+  let count = 0;
+  for (let i = 0; i < b.length; i++) {
+    if (b[i] === a) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(charCount("a", "edabit"));
+
+//➞ 1
+console.log(charCount("c", "Chamber of secrets")); //➞ 1
+console.log(charCount("b", "big fat bubble"));
+//➞ 4
+*/
+
+/*
+function crazyfunction(a, b) {
+  return a + b;
+}
+
+console.log(crazyfunction(10, 20));
+
+// ➞ 30
+console.log(crazyfunction(17, 35));
+//➞ 50
+
+console.log(crazyfunction(61, 233));
+// ➞ 212
+*/
+/*
+function crazyfunction(a, b) {
+  // Your secret expression goes here ;)
+  return a + b; // Example expression, replace this with the actual expression
+}
+
+// Test cases
+console.log(crazyfunction(10, 20)); // Output: 30
+console.log(crazyfunction(17, 35)); // Output: 50
+console.log(crazyfunction(61, 233)); // Output: 212
+*/
+/*
+const obj = { yourSignature: "" };
+
+function signYourName(obj) {
+  // Prevent adding new properties
+  Object.preventExtensions(obj);
+
+  // Modify existing property
+  obj.yourSignature = "Whatever";
+
+  // Attempting to add new property will fail silently or throw a TypeError in strict mode
+  obj.spouseSignature = "Nice Try";
+
+  return obj;
+}
+
+const signedDocument = signYourName(obj);
+console.log(signedDocument); // { yourSignature: "Whatever" }
+
+
+*/
+
+function numberSplit(num) {
+  if (num === undefined) {
+    return "please check th number";
+  } else {
+    let fastNum = Math.floor(num / 2);
+    let secoundNum = num - fastNum;
+
+    let arr = [];
+
+    arr.push(fastNum, secoundNum);
+
+    return arr;
+  }
+}
+console.log(numberSplit(4));
+//➞ [2, 2]
+
+numberSplit(10); //➞ [5, 5]
+
+numberSplit(11); //➞ [5, 6]
+
+numberSplit(-9); //➞ [-5, -4]

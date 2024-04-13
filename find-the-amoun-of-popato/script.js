@@ -1,23 +1,25 @@
-// function potatoes(op) {
-//   const p = [];
+/* function potatoes(op) {
+  const p = [];
 
-//   const i = op.split("potato").length - 1;
+  const i = op.split("potato").length - 1;
 
-//   return i;
-// }
+  return i;
+}
 
-// console.log(potatoes("potato")); //➞ 1
-// console.log(potatoes("potatopotato")); //➞ 2
-// console.log(potatoes("potatoapple")); //1
-
-/*
-const str = "apple, cherries, green, apples, green, kiwi";
-
-const ip = str.split(",").filter((str) => str.includes("green")).length;
-
-console.log(ip); //2
+console.log(potatoes("potato")); //➞ 1
+console.log(potatoes("potatopotato")); //➞ 2
+console.log(potatoes("potatoapple")); //1
 
 */
+const str = "apple, cherries, green, apples, green, kiwi";
+
+const find = str.split(",").filter((str) => str.includes("green")).length;
+
+console.log(find);
+
+// const ip = str.split(",").filter((str) => str.includes("green")).length;
+
+// console.log(ip); //2
 
 /*
 1. Function Declaration:
