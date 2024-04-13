@@ -454,7 +454,7 @@ console.log(signedDocument); // { yourSignature: "Whatever" }
 
 
 */
-
+/*
 function numberSplit(num) {
   if (num === undefined) {
     return "please check th number";
@@ -477,3 +477,18 @@ numberSplit(10); //➞ [5, 5]
 numberSplit(11); //➞ [5, 6]
 
 numberSplit(-9); //➞ [-5, -4]
+
+*/
+function fixImport(op) {
+  let splt = op.split(" ");
+
+  let makfix = splt[2] + " " + splt[3] + " " + splt[0] + " " + splt[1];
+
+  return makfix;
+}
+console.log(fixImport("import object from module_name"));
+// ➞ "from module_name import object"
+console.log(fixImport("import randint from random"));
+//➞ "from random import randint"
+console.log(fixImport("import pi from math"));
+//➞ "from math import pi"
