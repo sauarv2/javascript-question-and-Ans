@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../error message"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "blank-practice"
+  }
+}

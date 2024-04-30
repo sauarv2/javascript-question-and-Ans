@@ -218,11 +218,9 @@ function numberSquares(n) {
 }
 
 console.log(numberSquares(4));
-
 //➞ 5
 console.log(numberSquares(4));
 //➞ 30
-
 console.log(numberSquares(numberSquares(5)));
 
 //➞ 55
@@ -479,6 +477,8 @@ numberSplit(11); //➞ [5, 6]
 numberSplit(-9); //➞ [-5, -4]
 
 */
+
+/*
 function fixImport(op) {
   let splt = op.split(" ");
 
@@ -492,3 +492,68 @@ console.log(fixImport("import randint from random"));
 //➞ "from random import randint"
 console.log(fixImport("import pi from math"));
 //➞ "from math import pi"
+
+*/
+
+// function repeatStringNumTimes(str, num) {
+//   let addchar = " ";
+//   while (num > 0) {
+//     addchar += str;
+//     num--;
+//   }
+//   return addchar;
+// }
+// console.log(repeatStringNumTimes("s", 15));
+
+// ********************************* 👇 ES6 METHOD ******************************************
+/*
+function repeatStringNumTimes(str, num) {
+  if (num > 0) {
+    return str.repeat(num);
+  } else {
+    return "";
+  }
+}
+console.log(repeatStringNumTimes("s", 15));
+
+*/
+/*
+function detectWord(words) {
+  // find lower
+  const lowwerfind = /[a-z]/g;
+
+  const find = words.match(lowwerfind);
+
+  const tostring = find.toString();
+
+  const op = tostring.replace(/,/g, "");
+  return op;
+}
+
+console.log(detectWord("UcUNFYGaFYFYGtNUH"));
+
+*/
+
+/*
+let str1 = "Hire the top 1% freelance developers";
+
+const split_string = str1.split("");
+console.log(split_string);
+
+//Output = ["Hire", "the", "top", "1%", "freelance", "developers"]
+
+*/
+
+function repeatStringNumTimes(str, num) {
+  let addchar = " ";
+  const split_string = str.split("");
+  let oo = [];
+  while (num > 0) {
+    addchar += split_string;
+    num--;
+  }
+  let i = oo.push(addchar);
+
+  return i;
+}
+console.log(repeatStringNumTimes("saurav", 2));
