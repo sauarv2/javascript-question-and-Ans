@@ -543,6 +543,7 @@ console.log(split_string);
 //Output = ["Hire", "the", "top", "1%", "freelance", "developers"]
 
 */
+/*
 
 function repeatStringNumTimes(str, num) {
   let addchar = " ";
@@ -557,3 +558,14 @@ function repeatStringNumTimes(str, num) {
   return i;
 }
 console.log(repeatStringNumTimes("saurav", 2));
+*/
+
+const movement = [2000, 60, 89, -2000, 7000, 6000, -1000, -89];
+
+movement.forEach((move, i) => {
+  if (move > 0) {
+    console.log(`Movement ${i + 1} you deposited ${move}`);
+  } else {
+    console.log(`Movement ${i + 1} you withdrawl ${Math.abs(move)}`);
+  }
+});
