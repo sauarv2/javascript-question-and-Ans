@@ -558,7 +558,7 @@ function repeatStringNumTimes(str, num) {
   return i;
 }
 console.log(repeatStringNumTimes("saurav", 2));
-*/
+
 
 const movement = [2000, 60, 89, -2000, 7000, 6000, -1000, -89];
 
@@ -569,3 +569,10 @@ movement.forEach((move, i) => {
     console.log(`Movement ${i + 1} you withdrawl ${Math.abs(move)}`);
   }
 });
+*/
+
+const arr = [3, 1, 4, 1, 5, 9];
+const compareFn = (a, b) => (a > b ? -1 : 0);
+let ii = arr.sort(compareFn);
+
+console.log(ii);

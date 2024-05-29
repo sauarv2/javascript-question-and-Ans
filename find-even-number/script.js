@@ -5,20 +5,31 @@ Given an array of numbers, return an array which contains all the even numbers i
 */
 
 function getOnlyEvens(arr) {
-  // Declaring empty Even array
+  //   // Declaring empty Even array
   let even = [];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 == 0) {
       even.push(arr[i]);
     }
-  }
-  /*
-  Inside the loop, the if statement checks if the current element (arr[i]) is even. It does this by using the modulo operator (%) to check if the remainder of dividing the number by 2 is zero.
- If the current element is even, it is added to the even array using the push method.
+    /*Inside the loop, the if statement checks if the current element (arr[i]) is even. It does this by using the modulo operator (%) to check if the remainder of dividing the number by 2 is zero.
+If the current element is even, it is added to the even array using the push method.
 */
-  console.log(even);
-  //   console.log(odd);
+    console.log(even);
+    //   console.log(odd);
+  }
 }
+
+// function getOnlyEvens(number) {
+//   let newArr = [];
+
+//   number.forEach((num) => {
+//     if (num % 2 == 0) {
+//       newArr.push(num);
+//     }
+//   });
+
+//   console.log(newArr);
+// }
 
 getOnlyEvens([1, 3, 2, 6, 4, 8]); //➞ [2, 4]
 
