@@ -16,36 +16,29 @@ detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment") ➞ "embezzlement"
 
 */
 
-
 function detectWord(words) {
+  // find lower
+  const lowwerfind = /[a-z]/g;
 
-    // find lower 
-const lowwerfind = /[a-z]/g;
+  const find = words.match(lowwerfind);
 
-const find =  words.match(lowwerfind);
+  //   return find;
+  const tostring = find.join("");
 
- const tostring = find.toString()
-
-
-  const op = tostring.replace(/,/g,"");
- return op;
- 
+  return tostring;
 }
-
 
 console.log(detectWord("UcUNFYGaFYFYGtNUH"));
 
-
-
 // ➞ "cat"
 
-console.log(detectWord("bEEFGBuFBRrHgUHlNFYaYr"))
+console.log(detectWord("bEEFGBuFBRrHgUHlNFYaYr"));
 
- //➞ "burglar"
+//➞ "burglar"
 
- console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment"))
+console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment"));
 
- //➞ "embezzlement"
+//➞ "embezzlement"
 
 // ********************************************* EXPLAIN ***************************
 /*  Regular Expression Match:
