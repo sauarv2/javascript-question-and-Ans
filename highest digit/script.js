@@ -10,20 +10,40 @@ highestDigit(377401) ➞ 7
 
 */
 
-function highestDigit(num) {
-  let st = num + "";
-  const arrNum = Array.from(st, (x) => x);
+// function highestDigit(num) {
+//   let st = num + "";
+//   const arrNum = Array.from(st, (x) => x);
 
-  let hightValue = Math.max(...arrNum);
+//   let hightValue = Math.max(...arrNum);
 
-  console.log(hightValue);
+//   console.log(hightValue);
+// }
+// *********************************************************************
+
+function highestDigit(digit) {
+  let tostr = String(digit); // number to string
+  let Ctoarr = tostr.split(""); // to arrey
+
+  // console.log(Ctoarr);
+  let intial = 0; //for compare
+
+  for (let i = 0; i <= Ctoarr.length; i++) {
+    if (Ctoarr[i] > intial) {
+      // cheak which on is greater
+      intial = Ctoarr[i];
+    }
+  }
+
+  return intial;
 }
 
-highestDigit(379); //➞ 9
+console.log(highestDigit(379));
 
-highestDigit(2); //➞ 2
-
-highestDigit(377401); // ➞ 7
+//➞ 9
+console.log(highestDigit(2));
+//➞ 2
+console.log(highestDigit(377401));
+// ➞ 7
 
 /*
 
@@ -82,4 +102,18 @@ share
 more_vert
 
 
+*/
+
+/*
+const array = [3, 6, 2, 56, 32, 5, 89, 32];
+
+let intial = 0;
+
+for (let i = 0; i <= array.length; i++) {
+  if (array[i] > intial) {
+    intial = array[i];
+  }
+}
+
+console.log(intial);
 */
