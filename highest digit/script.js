@@ -38,7 +38,6 @@ function highestDigit(digit) {
 }
 
 console.log(highestDigit(379));
-
 //➞ 9
 console.log(highestDigit(2));
 //➞ 2

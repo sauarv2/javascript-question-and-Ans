@@ -21,12 +21,9 @@ function largestSwap(num) {
 function largestSwap(num) {
   let rnum;
   if (typeof num !== "number") throw new TypeError("Invalid Number");
-  rnum = num.toString();
-  rnum = rnum.split("");
-  rnum = rnum.reverse();
-  rnum = rnum.join("");
-  rnum = Number(rnum);
-  return rnum < num;
+  rnum = num.toString().split("").reverse().join("");
+
+  return +rnum <= num;
 }
 console.log(largestSwap(27)); // False
 console.log(largestSwap(43)); // True

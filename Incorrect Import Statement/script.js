@@ -16,9 +16,9 @@ fixImport("import pi from math") ➞ "from math import pi"
 */
 
 function fixImport(op) {
-  let splt = op.split(" ");
+  let arr = op.split(" ");
 
-  let makfix = splt[2] + " " + splt[3] + " " + splt[0] + " " + splt[1];
+  let makfix = arr[2] + " " + arr[3] + " " + arr[0] + " " + arr[1];
 
   return makfix;
 }

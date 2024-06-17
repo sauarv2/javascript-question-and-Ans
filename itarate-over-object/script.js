@@ -6,12 +6,12 @@ const personalDetail = {
 
 // for in loop*************
 
-// for (let key in personalDetail) {
-//   console.log(personalDetail[key]);
-// }
+for (let key in personalDetail) {
+  console.log(personalDetail[key]);
+}
 
 // object keys************************
 
-Object.keys(personalDetail).forEach((key) => {
-  console.log(personalDetail[key]);
-});
+// Object.keys(personalDetail).forEach((key) => {
+//   console.log(personalDetail[key]);
+// });
