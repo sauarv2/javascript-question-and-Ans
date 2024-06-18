@@ -35,7 +35,6 @@ getAbsSum([-1]); //➞ 1
 */
 
 const getAbsSum = function (num) {
-  const absolute = num
     .map((num) => Math.abs(num))
     .reduce((acc, curr) => acc + curr, 0);
 
