@@ -18,6 +18,7 @@ sortNumsAscending(null) ➞ []
 
 sortNumsAscending([]) ➞ []
 */
+/*
 
 // method one*********************************
 function sortNumsAscending(nums) {
@@ -46,7 +47,7 @@ sortNumsAscending([]); //➞ []
 /************************************* */
 
 // 2nd method**************---------------------------------------------------------------
-
+/*
 function sortNumsAscending(arr) {
   if (!arr || arr.length === 0) {
     return [];
@@ -59,3 +60,15 @@ console.log(sortNumsAscending([1, 2, 10, 50, 5])); // ➞ [1, 2, 5, 10, 50]
 console.log(sortNumsAscending(null)); // ➞ []
 console.log(sortNumsAscending([])); // ➞ []
 console.log(sortNumsAscending([20, 3, 1, 90, 50])); // ➞ [1, 3, 20, 50, 90]
+*/
+
+// document.body.click();
+
+function dosome() {
+  return;
+   {
+    success: true,
+  }
+}
+
+console.log(dosome());
