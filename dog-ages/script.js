@@ -23,15 +23,15 @@ Test data:
 
 const dogAge = function (ages) {
   const Dogages = ages.map((age) => (age <= 2 ? 2 * age : 16 + age * 4));
-
-  const chack18 = Dogages.filter((ages) => ages >= 18);
   console.log(Dogages);
-  console.log(chack18);
+  const chack18 = Dogages.filter((ages) => ages >= 18);
+  // console.log(Dogages);
+  // console.log(chack18);
   const avgDog = chack18.reduce(
     (acc, curr, i, arr) => acc + curr / arr.length,
     0
   );
-  console.log(avgDog);
+  // console.log(avgDog);
 };
 
 let age1 = [5, 2, 4, 1, 15, 8, 3];
