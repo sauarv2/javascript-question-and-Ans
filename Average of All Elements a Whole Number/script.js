@@ -16,6 +16,8 @@ isAvgWhole([9, 2, 2, 5]) ➞ false
 
 */
 
+/*
+
 const isAvgWhole = function (num) {
   let avg = 0;
   num.forEach((num) => {
@@ -35,6 +37,8 @@ isAvgWhole([1, 1, 1]); // ➞ true
 
 isAvgWhole([9, 2, 2, 5]); //➞ false
 
+*/
+
 /*/*************************** 2nd process */
 /*
 function isAvgWhole(arr) {
@@ -45,7 +49,7 @@ function isAvgWhole(arr) {
 
   // Calculate the sum of all elements
   const sum = arr.reduce(
-    (accumulator, currentValue) => accumulator + currentValue,
+    (acc, curr) => accumulator + currentValue,
     0
   );
 
@@ -54,3 +58,24 @@ function isAvgWhole(arr) {
 }
 
 */
+
+// 3rd mehod using loop******************************
+
+const isAvgWhole = function (num) {
+  let avg = 0;
+  for (let i = 0; i < num.length; i++) {
+    avg += num[i];
+  }
+
+  console.log(avg % num.length === 0);
+};
+
+isAvgWhole([1, 3]); //➞ true
+
+isAvgWhole([1, 2, 3, 4]); // ➞ false
+
+isAvgWhole([1, 5, 6]); // ➞ true
+
+isAvgWhole([1, 1, 1]); // ➞ true
+
+isAvgWhole([9, 2, 2, 5]); //➞ false
