@@ -571,8 +571,21 @@ movement.forEach((move, i) => {
 });
 */
 
-const arr = [3, 1, 4, 1, 5, 9];
-const compareFn = (a, b) => (a > b ? -1 : 0);
-let ii = arr.sort(compareFn);
+// const arr = [3, 1, 4, 1, 5, 9];
+// const compareFn = (a, b) => (a > b ? -1 : 0);
+// let ii = arr.sort(compareFn);
 
-console.log(ii);
+// console.log(ii);
+
+function findString(str) {
+  let find = 0;
+  const vowels = ["a", "e", "i", "o", "u"];
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      find++;
+    }
+  }
+  console.log(find);
+}
+
+findString("saurav saha");
