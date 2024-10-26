@@ -24,15 +24,21 @@ sortDrinkByPrice(drinks) ➞ [{name: "lime", price: 10}, {name: "lemonade", pric
 // }
 
 function sortDrinkByPrice(drinks) {
-  drinks.sort((a, b) => a.price - b.price);
+  let compare = drinks.sort((a, b) => a.price - b.price);
 
-  console.log(drinks);
+  console.log(compare);
 }
-console.log(
-  sortDrinkByPrice(
-    (drinks = [
-      { name: "lemonade", price: 50 },
-      { name: "lime", price: 10 },
-    ])
-  )
+
+sortDrinkByPrice(
+  (drinks = [
+    { name: "lemonade", price: 50 },
+    { name: "maga", price: 25 },
+    { name: "carite", price: 1 },
+    { name: "kolagol", price: 78 },
+    { name: "tamisree", price: 42 },
+    { name: "holudula", price: 85 },
+    { name: "cocattula", price: 455 },
+    { name: "tamli", price: 890 },
+    { name: "sholaaa", price: 560 },
+  ])
 );
