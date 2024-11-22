@@ -33,8 +33,7 @@ getAbsSum([-1]); //➞ 1
 */
 
 const getAbsSum = function (num) {
-    .map((num) => Math.abs(num))
-    .reduce((acc, curr) => acc + curr, 0);
+  num.map((num) => Math.abs(num)).reduce((acc, curr) => acc + curr, 0);
 
   console.log(absolute);
 };
@@ -46,4 +45,3 @@ getAbsSum([-3, -4, -10, -2, -3]); //➞ 22
 getAbsSum([2, 4, 6, 8, 10]); //➞ 30
 
 getAbsSum([-1]); //➞ 1
-
