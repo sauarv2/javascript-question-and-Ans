@@ -72,7 +72,7 @@ function charCount(a, str) {
 
     arr.push(arrstr);
   }
-
+  console.log(arr);
   arr.map((ar) => {
     if (ar === a) {
       count++;
