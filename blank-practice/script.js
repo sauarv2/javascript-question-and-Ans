@@ -576,7 +576,7 @@ movement.forEach((move, i) => {
 // let ii = arr.sort(compareFn);
 
 // console.log(ii);
-
+/*
 function findString(str) {
   let find = 0;
   const vowels = ["a", "e", "i", "o", "u"];
@@ -589,3 +589,35 @@ function findString(str) {
 }
 
 findString("saurav saha");
+
+function myFunction(a, b) {
+  console.log(a === b);
+}
+
+myFunction(2, 3);
+// Expected;
+// false;
+myFunction(3, 3);
+// Expected;
+// true;
+myFunction(1, "1");
+// Expected;
+// false;
+myFunction("10", "10");
+
+Expected;
+true;
+*/
+
+function myFunction(a, n) {
+  console.log(a[n - 1]);
+}
+
+myFunction("abcd", 1);
+// Expected
+// 'a'
+myFunction("zyxbwpl", 5);
+// Expected
+// 'w'
+myFunction("gfedcba", 3);
+// Expected: 'e'
