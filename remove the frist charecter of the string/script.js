@@ -1,16 +1,17 @@
 function myFunction(a) {
   //   let spli = a.split("");
   //   spli.splice();
+  let leny = a.length;
 
-  console.log(a.slice(0, 3));
+  console.log(a.slice(3, leny));
 }
 
 myFunction("abcdefg");
 // Expected
-// 'abc'
+// 'defg'
 myFunction("1234");
 // Expected
-// '123'
+// '4'
 myFunction("fgedcba");
 // Expected
-// 'fge'
+// 'dcba'
