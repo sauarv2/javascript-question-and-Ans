@@ -1,0 +1,41 @@
+<mxfile host="65bd71144e">
+    <diagram id="so64pEnaY4gsX1CK37xV" name="Page-1">
+        <mxGraphModel dx="1427" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;fontColor=#b42727;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="125" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(32, 32, 32); font-family: &amp;quot;Fira Code&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6272a4;&quot;&gt;Check if x&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #6272a4;&quot;&gt;is divisible&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="60" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="75" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="4" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="105" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="if yes" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="340" y="75" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div style=&quot;background-color: rgb(32, 32, 32); font-family: &amp;quot;Fira Code&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;span style=&quot;&quot;&gt;return x&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#b42727;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="75" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;div style=&quot;background-color: rgb(32, 32, 32); font-family: &amp;quot;Fira Code&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;span style=&quot;&quot;&gt;If not&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;fontColor=#FFFFFF;arrowWidth=0.1337537129720052;arrowSize=0.17574249267578124;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="190" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;div style=&quot;background-color: rgb(32, 32, 32); font-family: &amp;quot;Fira Code&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;next higher&amp;nbsp;&lt;/span&gt;natural number that is divisible by y&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="150" width="220" height="220" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
