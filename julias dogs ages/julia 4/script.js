@@ -48,8 +48,34 @@ const dogs = [
   { weight: 13, curFood: 275, owners: ["Sarah", "John"] },
 ];
 
-for (const doggss of dogs) {
-  const weight = doggss.weight;
-  const recomandedFood = weight ** 0.75 * 28;
-  console.log(recomandedFood.toFixed(1));
-}
+// for (const doggss of dogs) {
+//   const weight = doggss.weight;
+//   const recomandedFood = weight ** 0.75 * 28;
+//   console.log(recomandedFood.toFixed(1));
+// }
+// add recomandedfood**************************
+dogs.forEach((dog) => {
+  dog.recFood = Math.floor(dog.weight ** 0.75 * 28);
+});
+
+// console.log(dogs);
+
+// find sarah
+
+const findperson = dogs.find((dog) => dog.owners.includes("Sarah"));
+
+// chek*************
+const currtntFood = findperson.curFood;
+const recomandedFood = findperson.recFood;
+
+// if (currtntFood > recomandedFood) {
+//   console.log("eating to much");
+// } else {
+//   console.log("eating to little");
+// }
+const fristOwner = findperson.owners[0];
+console.log(
+  `${fristOwner} dogs eats ${
+    currtntFood > recomandedFood ? "too much" : "too little"
+  } `
+);
