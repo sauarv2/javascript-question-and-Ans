@@ -46,6 +46,10 @@ const dogs = [
   { weight: 22, curFood: 250, owners: ["Alice", "Bob"] },
   { weight: 8, curFood: 200, owners: ["Matilda"] },
   { weight: 13, curFood: 275, owners: ["Sarah", "John"] },
+  { weight: 25, curFood: 313, owners: ["Seru", "Jonas"] },
+  { weight: 20, curFood: 300, owners: ["kayli"] },
+  { weight: 15, curFood: 213, owners: ["Sara"] },
+  { weight: 35, curFood: 300, owners: ["Kyra", "Bob"] },
 ];
 
 // for (const doggss of dogs) {
@@ -74,8 +78,54 @@ const recomandedFood = findperson.recFood;
 //   console.log("eating to little");
 // }
 const fristOwner = findperson.owners[0];
-console.log(
-  `${fristOwner} dogs eats ${
-    currtntFood > recomandedFood ? "too much" : "too little"
-  } `
-);
+// console.log(
+//   `${fristOwner} dogs eats ${
+//     currtntFood > recomandedFood ? "too much" : "too little"
+//   } `
+// );
+
+// find owner whose dog eating too much************
+const findOwnerTO = dogs
+  .map((dog) => dog)
+  .filter((dog) => dog.curFood > dog.recFood)
+  .flatMap((dog) => dog.owners);
+
+// console.log(findOwnerTO);
+
+// find owner whose dog eating too much************
+const findOwnerLI = dogs
+  .map((dog) => dog)
+  .filter((dog) => dog.curFood < dog.recFood)
+  .flatMap((dog) => dog.owners);
+
+// console.log(findOwnerLI);
+
+// 1st process************************
+
+// findOwnerTO.forEach((arr) => console.log(`${arr} dogs eats too much `));
+// findOwnerLI.forEach((arr) => console.log(`${arr} dogs eats too little `));
+
+// 2nd processs*********************************
+
+// console.log(`${findOwnerTO.join(",")} dogs eats too much `);
+// console.log(`${findOwnerLI.join(",")} dogs eats too little `);
+
+// 5. Log to the console whether there is any dog eating exactly the amount of food
+// that is recommended (just true or false)****************************************************
+
+const findRowner = dogs.some((dog) => dog.curFood === dog.recFood);
+
+// console.log(findRowner);
+
+/*
+const cur = 35;
+let reco = 30;
+if (reco + 5 >= cur && cur >= reco - 5) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+// console.log(5 >= 3 && 3 >= 0);
+
+*/
