@@ -38,3 +38,23 @@ console.log(deposite, withdwal);
 */
 
 // ************************************************************************
+function convertTitleCase(title) {
+  const cpitalize = (word) => word[0].toUpperCase() + word.slice(1);
+  console.log(cpitalize);
+  // frist word need to capitalize **************************** 👆
+
+  const avoidspell = ["a", "an", "the", "but", "or", "on", "in", "is"];
+  const toLower = title.toLowerCase();
+  const toARR = toLower
+    .split(" ")
+    .map((word) => (avoidspell.includes(word) ? word : cpitalize(word))) //avoid rest word
+    .join(" ");
+
+  return cpitalize(toARR);
+}
+
+console.log(convertTitleCase("is this is a Nice title"));
+console.log(convertTitleCase("this iS a long title but noT to long"));
+console.log(convertTitleCase("Here is another tiTle with no exmaple"));
+console.log(convertTitleCase("this is a bad title But not so bAd"));
+console.log(convertTitleCase("Here is A Another title with example"));
