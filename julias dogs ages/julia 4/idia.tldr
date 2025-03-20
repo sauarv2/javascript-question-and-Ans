@@ -48,8 +48,8 @@
 			"typeName": "page"
 		},
 		{
-			"x": -4204.5794677734375,
-			"y": -1733.0294780731201,
+			"x": -4426.04248046875,
+			"y": -2653.4939556121826,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -63,7 +63,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 4.81754199843834,
+				"scale": 3.309486748129355,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -135,8 +135,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2698.0469970703125,
-			"y": -696.7556018829346,
+			"x": -4097.786682128906,
+			"y": -1722.8023940205387,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -150,7 +150,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1.6402628680919786,
+				"scale": 1.9260852735244303,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -180,8 +180,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1960.677001953125,
-			"y": -704.3186645507812,
+			"x": -3220.9786609689527,
+			"y": -1761.1761169433594,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -195,7 +195,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": false,
-				"scale": 1.6887100776802886,
+				"scale": 2.5665138447988056,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -219,8 +219,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3513.0421447753906,
-			"y": -472.27647399902344,
+			"x": -3810.8937072753906,
+			"y": -1233.0186614990234,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -258,8 +258,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2524.3705444335938,
-			"y": -398.2421569824219,
+			"x": -2697.2221069335938,
+			"y": -1096.4843444824219,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -293,8 +293,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3606.8790893554688,
-			"y": -460.8723449707031,
+			"x": -3939.4529418945312,
+			"y": -1249.39208984375,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -330,8 +330,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3985.266050776703,
-			"y": -195.1717438168729,
+			"x": -4415.061888179047,
+			"y": -712.8583588071073,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -345,7 +345,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": false,
-				"scale": 2.637066180538599,
+				"scale": 2.0311712336364853,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -393,8 +393,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2074.841951426665,
-			"y": -507.5269729565832,
+			"x": -2344.9158039657277,
+			"y": -1205.7691604565832,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -430,8 +430,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1996.7597981063527,
-			"y": -473.46677703373166,
+			"x": -2280.722810801665,
+			"y": -1192.5422470044348,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -469,8 +469,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3572.2810383407277,
-			"y": 549.5574005175379,
+			"x": -3939.5768757430715,
+			"y": 24.92635803706912,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -524,8 +524,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2849.9649264425398,
-			"y": 605.6066877824471,
+			"x": -2974.2050387472273,
+			"y": 129.58679032150962,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -601,8 +601,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4074.5851139708825,
-			"y": 1262.78601931897,
+			"x": -5114.7322086974455,
+			"y": 810.7459573682863,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -616,7 +616,7 @@
 				"font": "draw",
 				"textAlign": "middle",
 				"autoSize": true,
-				"scale": 3.887511454248766,
+				"scale": 6.135166434981917,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -670,8 +670,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1281.497775979613,
-			"y": 382.0461111531936,
+			"x": -1211.293918557738,
+			"y": -128.69607634680642,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -982,8 +982,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4366.600772403193,
-			"y": 1921.350649019332,
+			"x": -4337.303592227412,
+			"y": 1608.1997090779257,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -997,7 +997,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 2.622038893180394,
+				"scale": 3.000655859972435,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -1233,7 +1233,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 9.063607578439846,
+				"scale": 4.380642560284026,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -1281,8 +1281,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4861.732556032792,
-			"y": 3940.92984046852,
+			"x": -7187.361828493729,
+			"y": 3576.020782851333,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1545,21 +1545,23 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": -4123.067966109091,
-			"y": 7672.042516448072,
-			"lastActivityTimestamp": 1742417631323,
+			"x": -3489.338798576282,
+			"y": 6297.546688742519,
+			"lastActivityTimestamp": 1742424990247,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:color": "black"
+				"tldraw:color": "black",
+				"tldraw:textAlign": "start",
+				"tldraw:size": "s"
 			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "nwse-resize",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -1600,8 +1602,10 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"selectedShapeIds": [
+				"shape:363TunDyMpxT6HY5XuAZM"
+			],
+			"hoveredShapeId": "shape:363TunDyMpxT6HY5XuAZM",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -1611,8 +1615,8 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 8761.95682108956,
-			"y": -2463.7093865652596,
+			"x": 8253.22765355675,
+			"y": -2991.991268820644,
 			"z": 0.1,
 			"meta": {},
 			"id": "camera:page:page",
@@ -1884,7 +1888,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 10.527795984487453,
+				"scale": 4.7324357207739824,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -1920,8 +1924,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4775.0867039020595,
-			"y": 6043.244738689366,
+			"x": -6510.437961226278,
+			"y": 5518.613696208898,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1935,7 +1939,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 6.890822059759192,
+				"scale": 3.097560600383069,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -2019,8 +2023,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -7420.919833784872,
-			"y": 6591.855748869947,
+			"x": -7663.215976362997,
+			"y": 5983.891271330885,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2034,7 +2038,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 10.420627111685615,
+				"scale": 5.052246473808063,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -2067,6 +2071,614 @@
 			},
 			"parentId": "page:page",
 			"index": "aT59q",
+			"typeName": "shape"
+		},
+		{
+			"x": -7196.809748426829,
+			"y": 6554.260754508105,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:j4yaeSAdupL1nUr0nsbCU",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 2180.726656755057,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.694665412648506,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "/*"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "const cur = 35;"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "let reco = 30;"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "if (reco + 5 >= cur && cur >= reco - 5) {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "  console.log(true);"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "} else {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "  console.log(false);"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "}"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "hardBreak",
+									"marks": [
+										{
+											"type": "code"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "// console.log(5 >= 3 && 3 >= 0);"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "hardBreak",
+									"marks": [
+										{
+											"type": "code"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "*/"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aUAs3",
+			"typeName": "shape"
+		},
+		{
+			"x": -4877.36669422761,
+			"y": 6786.57413951787,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:W2dVcuLRorh-kGJ6dmLqG",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 807.2936401367188,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 3.566258987365414,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "console"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": ".log("
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "  dogs.every("
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    (dogs) "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "=>"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "      dogs.recFood + 50 >= dogs.curFood && dogs.curFood >= dogs.recFood - 50"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "  )"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": ");"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aV22I",
+			"typeName": "shape"
+		},
+		{
+			"x": -6713.737543836985,
+			"y": 10066.209796724901,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:hTrS43JCSaKW84I3EBqIM",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1017.5906982421875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 3.8388538357413267,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Create an array containing the dogs that are eating an okay amount of food (try"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "to reuse the condition used in 6.)"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aWA3D",
+			"typeName": "shape"
+		},
+		{
+			"x": -6099.660779623724,
+			"y": 10620.868950497113,
+			"rotation": 6.2831853071795845,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:f2CKi-nT_IrZ5N6hhBmVA",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 3721.0726750586737,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.9868206104129713,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "hardBreak"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "const"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": " findDogarrey = dogs.filter("
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "  (dogs) "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "=>"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    dogs.recFood + 50 >= dogs.curFood && dogs.curFood >= dogs.recFood - 50"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": ");"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "hardBreak",
+									"marks": [
+										{
+											"type": "code"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "console"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": ".log(findDogarrey);"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aXBpn",
 			"typeName": "shape"
 		}
 	]

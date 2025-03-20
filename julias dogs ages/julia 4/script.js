@@ -117,7 +117,13 @@ const findRowner = dogs.some((dog) => dog.curFood === dog.recFood);
 
 // console.log(findRowner);
 
+// 6. Log to the console whether there is any dog eating an okay amount of food
+// (just true or false)
 /*
+
+LOGIC=======================================
+
+
 const cur = 35;
 let reco = 30;
 if (reco + 5 >= cur && cur >= reco - 5) {
@@ -129,3 +135,32 @@ if (reco + 5 >= cur && cur >= reco - 5) {
 // console.log(5 >= 3 && 3 >= 0);
 
 */
+
+console.log(
+  dogs.every(
+    (dogs) =>
+      dogs.recFood + 50 >= dogs.curFood && dogs.curFood >= dogs.recFood - 50
+  )
+);
+
+// Create an array containing the dogs that are eating an okay amount of food (try
+// to reuse the condition used in 6.)
+
+const findDogarrey = dogs.filter(
+  (dogs) =>
+    dogs.recFood + 50 >= dogs.curFood && dogs.curFood >= dogs.recFood - 50
+);
+
+console.log(findDogarrey);
+
+const grupDbyFood = Object.groupBy(dogs, (dog) => {
+  if (dog.curFood > dog.recFood) {
+    return `too-much`;
+  } else if (dog.curFood < dog.recFood) {
+    return `too-little`;
+  } else {
+    return `exact amount of food`;
+  }
+});
+
+console.log(grupDbyFood);
