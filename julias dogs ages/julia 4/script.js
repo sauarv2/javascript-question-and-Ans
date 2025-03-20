@@ -136,12 +136,12 @@ if (reco + 5 >= cur && cur >= reco - 5) {
 
 */
 
-console.log(
-  dogs.every(
-    (dogs) =>
-      dogs.recFood + 50 >= dogs.curFood && dogs.curFood >= dogs.recFood - 50
-  )
-);
+// console.log(
+//   dogs.every(
+//     (dogs) =>
+//       dogs.recFood + 50 >= dogs.curFood && dogs.curFood >= dogs.recFood - 50
+//   )
+// );
 
 // Create an array containing the dogs that are eating an okay amount of food (try
 // to reuse the condition used in 6.)
@@ -152,7 +152,7 @@ const findDogarrey = dogs.filter(
 );
 
 console.log(findDogarrey);
-
+// dogs group by how much your dog eating food*********************
 const grupDbyFood = Object.groupBy(dogs, (dog) => {
   if (dog.curFood > dog.recFood) {
     return `too-much`;
@@ -163,4 +163,25 @@ const grupDbyFood = Object.groupBy(dogs, (dog) => {
   }
 });
 
-console.log(grupDbyFood);
+// console.log(grupDbyFood);
+
+// grouped by number of owner **************************
+
+const groupByOwner = Object.groupBy(dogs, (dog) => {
+  return `${dog.owners.length} - owner`;
+});
+
+console.log(groupByOwner);
+
+
+// sorting arrey ***************************
+//  Create a shallow copy of the 'dogs' array and sort it by recommended food
+// portion in an ascending order (keep in mind that the portions are inside the
+// array's objects 😉)
+
+
+
+const sortedArrey =  dogs.toSorted((a,b)=> a.recfood - b.recfood)
+
+
+console.log(sortedArrey)
