@@ -13,7 +13,7 @@ Notes
 Watch out for negative integers (numbers).
 
 */
-// ************************* 1st method
+// ************************* 1st method ******************
 /*
 const findLargestNums = (a) => {
   let result = [];
@@ -33,8 +33,8 @@ const findLargestNums = (a) => {
   //   }
   // }, a[0]);
 };
-*/
-/******************************** 2nd method */
+
+/******************************** 2nd method *************
 
 const findLargestNums = (a) => {
   let result = [];
@@ -51,6 +51,26 @@ const findLargestNums = (a) => {
       }
     }
     result.push(Farr); // push data in arrey
+  }
+  return result;
+};
+
+
+*/
+
+// ************************************3rd method *****************************
+const findLargestNums = (a) => {
+  let result = [];
+  let op;
+  let findlargest;
+  for (let i = 0; i < a.length; i++) {
+    arr = a[i];
+
+    op = arr.sort((a, b) => a - b); // sort the arrey accordig to asynding method like 0-1-2
+
+    findlargest = op[op.length - 1]; // find the largest value by choosing last arrey
+
+    result.push(findlargest); //push the the data in arrey
   }
   return result;
 };
