@@ -58,7 +58,7 @@ const maximumScore = function (arr) {
 */
 
 // 3rd process ***************************
-
+/*
 const maximumScore = function (arr) {
   let scroeArr = [];
   // let init = 0;
@@ -68,6 +68,21 @@ const maximumScore = function (arr) {
     scroeArr.push(accessArrey);
   }
 
+  let final = scroeArr.reduce((curr, acc) => curr + acc, 0);
+
+  return final;
+};
+*/
+
+// 4th process****************************************************
+const maximumScore = function (arr) {
+  let scroeArr = [];
+  // using forEach loop
+  arr.forEach(function (accessArrey) {
+    // body
+    scroeArr.push(accessArrey.score);
+  });
+  // using reduce method*******************************************
   let final = scroeArr.reduce((curr, acc) => curr + acc, 0);
 
   return final;
