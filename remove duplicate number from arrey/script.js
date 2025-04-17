@@ -54,4 +54,4 @@ console.log(removeDulblicateArrey(array));
 
 */
 
-// re
+// reduce method ******************************
