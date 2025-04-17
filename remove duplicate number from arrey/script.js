@@ -1,4 +1,4 @@
-const array = [1, 2, 3, 4, 1, 2, 3];
+/*
 const uniqueArray = [...new Set(array)];
 console.log(uniqueArray); // [1, 2, 3, 4]
 
@@ -15,3 +15,43 @@ console.log(uniqueArray); // [1, 2, 3, 4]
 //   return accumulator;
 // }, []);
 // console.log(uniqueArray); // [1, 2, 3, 4]
+
+// method 3 using filter method ***************
+/*
+const array = [1, 2, 3, 4, 1, 2, 3];
+
+function removeDulblicateArrey(arr) {
+  const findDublicate = arr.filter((Val, i) => arr.indexOf(Val) === i);
+  console.log(findDublicate);
+}
+
+console.log(removeDulblicateArrey(array));
+
+*/
+/************************************************** */
+// We can also use the filter method to retrieve the duplicate values from the array by simply adjusting our condition.
+
+// function removeDulblicateArrey(arr) {
+//   const findDublicate = arr.filter((Val, i) => arr.indexOf(Val) !== i);
+//   //   console.log(findDublicate);
+// }
+
+// console.log(removeDulblicateArrey(array));
+/*
+//for each method***************************************
+const array = [1, 6, 2, 3, 4, 1, 2, 3, 5];
+
+function removeDulblicateArrey(arr) {
+  let un = [];
+
+  arr.forEach((element) => {
+    if (!un.includes(element)) un.push(element);
+  });
+  return un;
+}
+
+console.log(removeDulblicateArrey(array));
+
+*/
+
+// re
