@@ -16,12 +16,17 @@ arrayOperation(15, 20, 7) ➞ []
 */
 
 function arrayOperation(a, b, c) {
-  for (let i = a; a <= b; i++) {
-    if (c % i == 0) {
-      console.log(i);
+  let earr = [];
+  for (let i = a; i <= b; i++) {
+    if (i % c === 0) {
+      earr.push(i);
     }
-    console.log(i);
   }
+  console.log(earr);
 }
 
 arrayOperation(1, 10, 3); //➞ [3, 6, 9]
+
+arrayOperation(7, 9, 2); //➞ [8]
+
+arrayOperation(15, 20, 7); // ➞ []
