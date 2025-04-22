@@ -21,6 +21,9 @@ function societyName(arr) {
   const final = earr.sort().join("");
   console.log(final);
 }
-societyName(["Adam", "Sarah", "Malcolm"]);
 
-// ➞ "AMS"
+societyName(["Adam", "Sarah", "Malcolm"]); //➞ "AMS"
+
+societyName(["Harry", "Newt", "Luna", "Cho"]); // ➞ "CHLN"
+
+societyName(["Phoebe", "Chandler", "Rachel", "Ross", "Monica", "Joey"]); // ➞ "CJMPRR"
