@@ -8,6 +8,7 @@ sad	:(
 mad	:P
 
 */
+/*
 
 function emotify(word) {
   let word1 = "smile";
@@ -31,6 +32,8 @@ console.log(emotify("Make me grin")); //➞ "Make me :)"
 console.log(emotify("Make me sad")); // ➞ "Make me :("
 
 /****************************** */
+*/
+
 
 function replaceWordsWithEmoticons(sentence) {
   // Define a dictionary of words and their corresponding emoticons
@@ -61,3 +64,4 @@ const sentence =
 const result = replaceWordsWithEmoticons(sentence);
 console.log(result);
 // Output: "When you :D or :), I feel happy. But when you are :( or :P, I feel bad."
+

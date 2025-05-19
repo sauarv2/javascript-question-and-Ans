@@ -8,8 +8,7 @@ function numberSplit(num) {
     //The variable secdNum is assigned the remaining value after subtracting fstNum from num.
     let arr = [];
     //created to store the results of the split.
-
-    arr.push(fastNum, secoundNum);
+    -arr.push(fastNum, secoundNum);
 
     return arr;
   }

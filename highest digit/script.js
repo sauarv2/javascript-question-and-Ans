@@ -27,7 +27,7 @@ function highestDigit(digit) {
   // console.log(Ctoarr);
   let intial = 0; //for compare
 
-  for (let i = 0; i <= Ctoarr.length; i++) {
+  for (let i = 0; i < Ctoarr.length; i++) {
     if (Ctoarr[i] > intial) {
       // cheak which on is greater
       intial = Ctoarr[i];

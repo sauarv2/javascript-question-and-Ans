@@ -4,7 +4,7 @@ function chekckdogs(juliaDog, kateDog) {
   correctJulidogs.splice(-2);
 
   const dogsAge = correctJulidogs.concat(kateDog);
-
+  console.log(dogsAge);
   dogsAge.forEach((Dogs, i) => {
     if (Dogs >= 3) {
       console.log(` ${i + 1} adult Dog ${Dogs}`);

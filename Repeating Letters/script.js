@@ -9,10 +9,8 @@ doubleChar("Hello World!") ➞ "HHeelllloo  WWoorrlldd!!"
 doubleChar("1234!_ ") ➞ "11223344!!__  "
 */
 function doubleChar(str) {
-  const op = str
-    .split("")
-    .map((strr) => strr.repeat(2))
-    .join("");
+  const op = str.split("").map((strr) => strr.repeat(2));
+  .join("");
 
   return op;
 }
